@@ -1,0 +1,46 @@
+body{
+    background-color: #FCA6C9
+}
+
+#nelson_pr{
+    width: 15%;
+    height: 40%;
+}
+
+#title{
+    font-size: 350%;
+}
+
+#image{
+    text-align: center;
+}
+
+.upper{
+    color: white;
+}
+
+#list{
+    text-align: left;
+    padding-left: 38%;
+    line-height: 200%;
+}
+
+#conc{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+#text_desc{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+#pres{
+    font-size: 150%;
+    padding-bottom: 0.1%;
+}

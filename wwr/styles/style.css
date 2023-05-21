@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Ubuntu:wght@300&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,12 +8,14 @@
 
 #logo_link{
     text-align: center;
+    padding-top: 5px;
 }
 
-#a{
+nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg{
@@ -24,18 +28,23 @@
 
 .rivers-card{
     text-align: center;
+    margin: 200px 0;
 }
 
 .camping-card{
     text-align: center;
+    margin: 200px 0;
 }
 
 .rapids-card{
     text-align: center;
+    margin: 200px 0;
 }
 
 .msg{
     text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 #background{
@@ -44,7 +53,11 @@
 }
 
 body{
+    font-family: "Ubuntu";
     background-color: #c5c5c5;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -57,8 +70,12 @@ header{
 }
 
 .book{
+    font-size: 18px;
     background-color: #E83151;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -66,24 +83,32 @@ header{
 }
 
 .join{
+    font-size: 18px;
     background-color: #BCD8B7;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
     background-color: #517327;
 }
 
-#msg_h2{
+.msg h2{
     background-color: #6C91C2;
 }
 
-#msg_p{
+.msg p{
+    font-size: 0.8em;
     background-color: #E3DC95;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #F5D547;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .footer_a{
@@ -98,6 +123,7 @@ footer{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -106,4 +132,27 @@ footer{
 
 #footer_p{
     font-size: 1.2em;
+}
+
+.home-title{
+    font-family: "Rubik";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.card-img{
+    border: 10px solid;
+    border-color: black;
+}
+
+main section img{
+    box-sizing: border-box;
 }

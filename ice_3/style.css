@@ -1,0 +1,28 @@
+#main_div{
+    position: relative;
+    background-color: rgb(135, 130, 130);
+}
+
+#cherries{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+#text1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 200px;
+    top: 30%;
+    left: 10%;
+}
+
+#text2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 80px;
+    top: 70%;
+    left: 55%;
+    color: darkred;
+    letter-spacing: 15px;
+}

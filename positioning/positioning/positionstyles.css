@@ -57,8 +57,8 @@
   background-color: gold; 
   grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 } 
 .blue2 {
   width: 100px; 

@@ -1,0 +1,67 @@
+#lentes{
+    float: left;
+    height: 700px;
+    width: 600px;
+}
+
+#sec_div{
+    display: grid;
+    grid-template: 10fr;
+}
+
+h1{
+    color: rgb(91, 87, 87);
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: rgb(159, 152, 152);;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email{
+    text-align: left;
+    width: 700px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: lightgray;
+    border-style: solid;
+    color: rgb(189, 177, 177);
+    border-radius: 5px;
+}
+
+#name{
+    width: 700px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: lightgray;
+    border-style: solid;
+    color: rgb(189, 177, 177);
+    border-radius: 5px;
+}
+
+#checkbox{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+#subscribe{
+    width: 200px;
+    height: 50px;
+    background-color: darkorange;
+    color: white;
+    margin: 0 auto;
+    border-style: none;
+    border-radius: 5px;
+}

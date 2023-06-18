@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Ubuntu:wght@300&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#logo_link{
+    text-align: center;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-msg{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.button-box{
+    text-align: center;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-img{
+    width: 100%;
+    height: 800px;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.home-title{
+    font-family: "Rubik";
+    font-size: 3em;
+    margin-top: 10px;
+    color: white;
+    background-color: #2d93ad;
+    padding: 20px;
+}
+
+.book{
+    font-size: 2em;
+    background-color: #E83151;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover{
+    background-color: #35CE8D;
+}
+
+#home-subtitle{
+    font-size: 2em;
+    color: white;
+    background-color: #2d93ad;
+    padding: 20px;
+}
+
+footer{
+    background-color: #F5D547;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    font-family: "Ubuntu";
+    background-color: #c5c5c5;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #517327;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#a:hover{
+    background-color: #D2CCA1;
+}
+
+.footer_a{
+    background-color: #B4D2BA;
+    text-decoration: none;
+}
+
+.footer_a:hover{
+    background-color: #6C91C2;
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.logo{
+    width: 50%;
+}
+
+#salmon{
+    float: left;
+    width: 800px;
+}
+
+.sub_title{
+    font-size: 3em;
+    margin: 20px;
+}
+
+.sub_title_desc{
+    padding: 20px;
+}
+
+#desolation{
+    float: right;
+}
+
+#grand_canyon_rafting{
+    float: left;
+    height: 500px;
+}
+
+#contract{
+    font-size: 2em;
+    margin: 200px;
+    background-color: #517327;
+    padding: 20px;
+    color: #F5D547;
+}
+
+#contract:hover{
+    background-color: #E83151;
+}
+
+@media screen and (max-width: 900px){
+    #hero, .home-grid{
+        display: block;
+        height: auto;
+    }
+    nav, footer{
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+    #hero{
+        margin-top: 0;
+    }
+    #hero-msg{
+        margin-top: 0;
+    }
+    #hero-msg h4{
+        display: none;
+    }
+    .home-title{
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background{
+        display: none;
+    }
+    footer{
+        margin-top: 25px;
+    }
+}

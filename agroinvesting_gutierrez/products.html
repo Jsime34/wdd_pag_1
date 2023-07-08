@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../agroinvesting_gutierrez/images/"
+        <link rel="stylesheet" href="../agroinvesting_gutierrez/styles/style_products.css">
         <title>Products</title>
     </head>
     <body>
@@ -18,13 +18,40 @@
                     <a href="contactus.html">Contact Us</a>
                 </nav>
             </header>
-            <div id="intro">
-                <h1>We have a large variety of products to offer, we will give a quick description to each of them: </h1>
+            <div class="slideshow">
+                <div class="myslides fade">
+                    <div class="numbertext"> 1 / 3 </div>
+                    <img src="../agroinvesting_gutierrez/images/slideshow1.jpeg" style="width: 100%;" alt="first slideshow image" />
+                    <div class="text">Green chili</div>
+                </div>
+
+                <div class="myslides fade">
+                    <div class="numbertext"> 2 / 3 </div>
+                    <img src="../agroinvesting_gutierrez/images/slideshow2.jpeg" style="width: 100%;" alt="Second slideshow image" />
+                    <div class="text">Red chili</div>
+                </div>
+
+                <div class="myslides fade">
+                    <div class="numbertext"> 3 / 3 </div>
+                    <img src="../agroinvesting_gutierrez/images/green_chili_3.jpeg" style="width: 100%;" alt="Third slideshow image" />
+                    <div class="text">Garlic</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <br>
+
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
             <main id="products">
                 <div id="paprika">
                     <img id="paprika1" src="" alt="Dried paprika">
-                    <img id="paprika2" src="" alt="Greem paprika">
+                    <img id="paprika2" src="" alt="Green paprika">
                     <h1>PAPRIKA</h1>
                     <h3>Dried paprika, also known as dried chili, is a product used to create a diversity of the best spices 
                     that we can find on the world.
@@ -92,5 +119,33 @@
                 </div>
             </footer>
         </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n){
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("myslides");
+                let dots = document.getElementsByClassName("dot");
+                if(n>slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i=0; i<slides.length; i++){
+                    slides[i].style.display = "none";
+                }
+                for(i = 0; i<dots.length;i++){
+                    dots[i].className = dots[i].className.replace("active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
     </body>
 </html>

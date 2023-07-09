@@ -140,6 +140,153 @@ body{
     to {opacity: 1;}
 }
 
+#paprika{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#paprika h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#paprika h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#paprika h3:last-child{
+    top: 80%;
+}
+
+#paprika img{
+    height: 500px;
+    width: 750px;
+}
+
+#quinoa{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#quinoa img{
+    height: 500px;
+    width: 500px;
+}
+
+#quinoa h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#quinoa h2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#quinoa h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#brown_onion{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#brown_onion h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#brown_onion h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#brown_onion img{
+    width: 1500px;
+    height: 500px;
+}
+
+#bell_pepper{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#bell_pepper h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#bell_pepper h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#bell_pepper img{
+    width: 1500px;
+    height: 500px;
+}
+
+#garlic{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#garlic h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#garlic h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D21A1;
+}
+
+#garlic img{
+    width: 1500px;
+    height: 500px;
+}
+
 footer{
     background-color: #F5D547;
     padding: 25px 50px;
@@ -161,4 +308,18 @@ footer{
 
 footer .social img{
     padding-top: 15px;
+}
+
+@media screen and (max-width: 900px){
+    nav, footer{
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+
+    footer{
+        margin-top: 25px;
+    }
 }

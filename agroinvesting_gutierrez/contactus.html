@@ -19,13 +19,13 @@
                 </nav>
             </header>
             <div id="info">
-                <img id="contact" src="" alt="Image for contact">
-                <h2>If you want to contact us, you can write an email to: [Bioserguti@hotmail.com]
+                <img id="contact" src="../agroinvesting_gutierrez/images/contact.jpg" alt="Image for contact">
+                <h2>If you want to contact us, you can write an email to: [Bioserguti@hotmail.com] <br>
                     Other way to contact us will be to submit the following form:
                 </h2>
             </div>
             <div id="form_submit">
-                <h1>SUBMIT YOUR PETITION HERE: </h1>
+                <h1 id="phrase">     SUBMIT YOUR PETITION HERE: </h1>
                 <form id="form_agro">
                     <ul>
                         <li>
@@ -76,5 +76,15 @@
                 </div>
             </footer>
         </div>
+        <script>
+            const feedbackElement = document.getElementById('form_agro');
+            const formElement = document.forms[0];
+            formElement.addEventListener('submit', function(e){
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Thanks for your submission ' + formElement.user_name.value + ', we have received it and will contact you as soon as posible, check your e-mail regularly!' ;
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle('moveDown');
+            })  
+        </script>
     </body>
 </html>

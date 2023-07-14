@@ -64,9 +64,13 @@ body{
 form{
     margin: 0 auto;
     width: 400px;
-    padding: 2em;
+    padding: 3em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    color: #d64933;
+}
+
+#phrase{
     color: #d64933;
 }
 
